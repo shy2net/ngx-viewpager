@@ -1,3 +1,4 @@
+
 /**
  * Adapted from angular2-webpack-starter
  */
@@ -29,7 +30,7 @@ module.exports = {
         publicPath: '/',
         filename: 'index.umd.js',
         libraryTarget: 'umd',
-        library: 'ng2-slim-loading-bar'
+        library: 'ngx-viewpager'
     },
 
     // require those dependencies but don't bundle them
