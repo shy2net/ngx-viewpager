@@ -20,5 +20,28 @@
   "bugs": {
     "url": "https://github.com/shy2net/ngx-viewpager/issues"
   },
-  "homepage": "https://github.com/shy2net/ngx-viewpager#readme"
+  "homepage": "https://github.com/shy2net/ngx-viewpager#readme",
+  "peerDependencies": {
+    "@angular/core": "^2.4.7 || ^4.3.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^2.4.7 || ^4.3.0",
+    "@angular/compiler": "^2.4.7",
+    "@angular/compiler-cli": "^2.4.7",
+    "@angular/core": "^2.4.7",
+    "@angular/platform-browser": "^2.4.7",
+    "@angular/platform-browser-dynamic": "^2.4.7",
+    "@angular/platform-server": "^2.4.7",
+    "@types/node": "6.0.46",
+    "rxjs": "^5.0.3",
+    "semantic-release": "4.3.5",
+    "source-map-loader": "0.1.5",
+    "ts-helpers": "1.1.2",
+    "tslint": "~4.0.0",
+    "tslint-loader": "3.3.0",
+    "typescript": "2.0.10",
+    "webpack": "2.2.0",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "zone.js": "^0.7.6"
+  }
 }
