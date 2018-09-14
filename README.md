@@ -9,12 +9,12 @@ the contents.
 ## Installation
 
 Install the package using the following command:
-> npm install nemex-angular2-viewpager
+> npm install ngx-viewpager
 
 In your app module add the follwing code:
 ```typescript
 ...
-import { NemexViewPagerModule } from 'nemex-angular2-viewpager';
+import { NemexViewPagerModule } from 'ngx-viewpager';
 
 @NgModule({
   ...
