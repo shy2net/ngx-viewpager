@@ -1,4 +1,4 @@
-import { PointerPosition } from 'nemex-angular2-viewpager/src/pointer-position';
+import { PointerPosition } from './pointer-position';
 
 // A pointer stack acts as a LIFO (Last-In First-Out) that only contains the last recent pointer location
 export class PointerStack {
@@ -6,7 +6,7 @@ export class PointerStack {
     public positions:PointerPosition[] = [];
 
     push(position: PointerPosition) {
-        if (this.positions.length > this.stackMax) 
+        if (this.positions.length > this.stackMax)
             this.positions = this.positions.slice(1);
 
         this.positions.push(position);
